@@ -82,6 +82,20 @@ OPENWRT_FIRMWARE_IMAGE_MAP.update(
                 },
             ),
             (
+                'openwrt-ath79-generic-sophos_ap100c-squashfs-sysupgrade.bin',
+                {
+                    'label': 'Sophos AP100C',
+                    'boards': ('Sophos AP100C',),
+                },
+            ),
+            (
+                'openwrt-ath79-generic-sophos_ap55c-squashfs-sysupgrade.bin',
+                {
+                    'label': 'Sophos AP55C',
+                    'boards': ('Sophos AP55C',),
+                },
+            ),
+            (
                 'ar71xx-generic-archer-c7-v1-squashfs-sysupgrade.bin',
                 {
                     'label': 'TP-Link Archer C7 v1 (OpenWRT 19.07 and earlier)',
